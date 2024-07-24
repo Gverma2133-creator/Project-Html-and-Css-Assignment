@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  animation-name: titleAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes titleAnimation {
+  from {
+    color: #000;
+    font-size: 40px;
+    text-shadow: 0 0 10px #000;
+  }
+
+  to {
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 0 0 15px #fff;
+  }
+}
+
+blockquote {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1><span style="color: #007bff;"><b>Title</b></span></h1>
+
+<blockquote>"<b>Quote</b>"</blockquote>
+
+</body>
+</html>

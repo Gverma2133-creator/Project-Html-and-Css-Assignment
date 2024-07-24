@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Media about Nikola Tesla">
+    <meta name="keywords" content="Nikola Tesla, media, video, inventor, scientist">
+    <title>Media about Nikola Tesla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+       <!-- Guransh Verma, Student Number 8972133 -->
+       <!----Internal Cascading Stylesheet---->
+    <style>
+        /* Guransh Verma, Student Number 8972133 */
+
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header and footer styles */
+        header, footer {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center; /* Centering the navigation links */
+        }
+
+        nav ul li {
+            display: inline-block;
+            position: relative;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
+        }
+
+        nav ul li a:hover {
+            background-color: #fff;
+            color: #ff7e5f;
+        }
+
+        /* Dropdown menu styles */
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #ff7e5f;
+            padding: 0;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+
+        nav ul ul li {
+            display: block;
+            margin: 0;
+        }
+
+        nav ul ul li a {
+            display: block;
+            padding: 10px;
+        }
+
+        nav ul li:hover > ul {
+            display: block;
+        }
+
+        /* Aside styles */
+        aside {
+            background-color: #ff7e5f;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center; /* Centering the list items */
+        }
+
+        aside ul li {
+            margin-bottom: 10px;
+        }
+
+        aside ul li a {
+            text-decoration: none;
+            color: #007BFF;
+            transition: color 0.3s; /* Smooth transition for hover effect */
+        }
+
+        aside ul li a:hover {
+            color: #FF5733;
+        }
+
+        /* Main content styles */
+        main {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: #fff;
+            text-align: center; /* Centering the main content text */
+        }
+
+        .media-heading {
+            font-size: 50px;
+            font-family: 'Agency FB', sans-serif;
+            font-weight: bold;
+        }
+
+        .media-intro {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            border-radius: 10px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nikola Tesla</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quotes.html">Quotes</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Media.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="media-heading">Discover Nikola Tesla</h2>
+        <p class="media-intro"><strong>Explore</strong> the fascinating world of Nikola Tesla, the brilliant inventor and visionary whose work revolutionized the field of electricity and electromagnetism.</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/DN6M64eraD8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+    <aside>
+        <h2>Additional Information</h2>
+        <ul>
+            <li><a href="https://www.britannica.com/biography/Nikola-Tesla" target="_blank">Britannica: Nikola Tesla</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">Wikipedia: Nikola Tesla</a></li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&copy; Guransh Verma (8972133), 2024</p>
+    </footer>
+</body>
+</html>
